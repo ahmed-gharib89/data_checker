@@ -56,9 +56,12 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-# EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-# }
+EXTENSIONS = {"data_checker.extensions.EmailOnChange": 500}
+# EmailOnChange Settings
+EMAIL_ON_CHANGE_ENABLED = True
+EMAIL_ON_CHANGE_DESTINATION = "user@example.com"
+# Mail Settigns
+MAIL_PORT = 8026
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
