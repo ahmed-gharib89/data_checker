@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "~/.local/share/virtualenvs/data_checker-bj8UgOmB/bin/python",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+
+}
